@@ -13,6 +13,7 @@
 		C42172081D17E6400005172F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42172061D17E6400005172F /* Main.storyboard */; };
 		C421720A1D17E6400005172F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42172091D17E6400005172F /* Assets.xcassets */; };
 		C421720D1D17E6400005172F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C421720B1D17E6400005172F /* LaunchScreen.storyboard */; };
+		C42172161D17E6AF0005172F /* ViewFresher.m in Sources */ = {isa = PBXBuildFile; fileRef = C42172151D17E6AF0005172F /* ViewFresher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C42172091D17E6400005172F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C421720C1D17E6400005172F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C421720E1D17E6400005172F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42172141D17E6AF0005172F /* ViewFresher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFresher.h; sourceTree = "<group>"; };
+		C42172151D17E6AF0005172F /* ViewFresher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFresher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				C42172011D17E63F0005172F /* AppDelegate.m */,
 				C42172031D17E63F0005172F /* ViewController.h */,
 				C42172041D17E63F0005172F /* ViewController.m */,
+				C42172141D17E6AF0005172F /* ViewFresher.h */,
+				C42172151D17E6AF0005172F /* ViewFresher.m */,
 				C42172061D17E6400005172F /* Main.storyboard */,
 				C42172091D17E6400005172F /* Assets.xcassets */,
 				C421720B1D17E6400005172F /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				C42172051D17E63F0005172F /* ViewController.m in Sources */,
 				C42172021D17E63F0005172F /* AppDelegate.m in Sources */,
+				C42172161D17E6AF0005172F /* ViewFresher.m in Sources */,
 				C42171FF1D17E63F0005172F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableRefresher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yidahulian.TableRefresher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableRefresher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yidahulian.TableRefresher;
 				PRODUCT_NAME = "$(TARGET_NAME)";

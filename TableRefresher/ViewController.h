@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import "ViewFresher.h"
+@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
+@property (nonatomic, strong) UITableView *tab;
+@property (nonatomic, strong) ViewFresher *fresher;
+@property (nonatomic, strong) NSMutableArray *dataArr;
 @end
 
